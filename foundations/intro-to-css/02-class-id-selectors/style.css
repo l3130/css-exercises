@@ -1,0 +1,18 @@
+.big {
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color: white;
+}
+#get {
+    color: blue;
+    font-size: 36px;
+}
+.it {
+    font-size: 24px;
+}
+#set {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
