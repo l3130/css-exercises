@@ -50,7 +50,7 @@ a {
   color: #666;
   text-decoration: none;
 }
-.header
+.header,
 .footer {
   display: flex;
   justify-content: space-between;
