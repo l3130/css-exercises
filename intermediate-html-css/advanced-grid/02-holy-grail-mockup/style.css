@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 4px;
+  text-align: center;
 
 }
 
@@ -22,7 +23,7 @@
 .header {
   background-color: #393f4d;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 
 .menu ul,
@@ -31,14 +32,19 @@
 }
 .menu ul {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
 
 }
 .nav ul {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .sidebar {
   background-color: #C50208;
+  display: grid;
+  gap: 50px;
+  grid-row: 2 / 4;
 }
 
 .sidebar .photo {
